@@ -1,0 +1,27 @@
+{
+  "name": "web-hodgepodge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress build src",
+    "git:commit": "git cz",
+    "deploy": "bash ./script/deploy.sh"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-conventional-emoji": "^1.0.2",
+    "markdown-it-image-loading": "^1.0.2",
+    "markdown-it-imsize": "^2.0.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "vuepress": "^1.5.4",
+    "vuepress-theme-reco": "1.5.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-emoji"
+    }
+  }
+}
