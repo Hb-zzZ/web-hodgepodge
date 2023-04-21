@@ -21,3 +21,5 @@ title: Mark
 [Git 不要只会 pull 和 push，试试这 5 条提高效率的命令](https://juejin.cn/post/7071780876501123085#heading-11)
 
 [比较 Git 中的两个分支](https://www.techiedelight.com/zh/compare-two-branches-git/)
+
+[Git 忽略本地某一文件更改，不提交](https://www.jianshu.com/p/2334ec22eaae)
